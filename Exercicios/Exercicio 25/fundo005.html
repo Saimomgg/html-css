@@ -7,22 +7,34 @@
     <style>
         body{
             height: 95vh;
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-position: center center;
-            background-repeat: no-repeat;
             /* background-size: contain;: Mostra a imagem 100% exibida na tela */
             /* background-size: cover;: Ele cobre a tela mais picota o top ou o bottom */
-            background-size: contain;
+
+            /*Sem shorthend = sem encurtamento.
+
+            background-repeat: no-repeat;
+            background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center top;
+            background-size: cover;
+            background-attachment: fixed;
             
+            Com shorthand = Com encurtamento.
+
+            background: black url(imagens/wallpaper002.jpg) center top/ cover no-repeat fixed.
+            
+            */
+            background: black url(imagens/wallpaper002.jpg) center top/ cover no-repeat fixed
+
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             padding: 20px;
             border-radius: 7px;
             border: 1px solid blue;
+             
 
         }
     </style>
@@ -33,6 +45,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum blanditiis nostrum maiores quos ullam dolore consequatur, eligendi consequuntur sit neque delectus ad sint dicta a unde sequi asperiores eveniet voluptas.
         </p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, beatae. Nostrum sunt quam doloremque, officia quaerat quia soluta ea dignissimos, nobis architecto, dolore illo. Beatae nam saepe magnam sint dolores?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cupiditate eveniet quod suscipit nisi blanditiis illo deleniti repudiandae exercitationem explicabo, ad unde accusantium, rerum laudantium! Consequatur excepturi perspiciatis dolores dolorem!</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odit maxime eum assumenda rerum sequi quae iusto facilis. Odit dolorum consequuntur unde eveniet laboriosam sit aut laborum! Velit, quisquam deleniti.
     </main>
 </body>
 </html>
