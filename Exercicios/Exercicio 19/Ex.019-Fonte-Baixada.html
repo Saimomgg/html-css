@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+    <STyle>
+        @font-face { /* Comando Incial pra chamar fonte */
+            font-family: 'Love'; /* Criar essa fonte */
+            src: url(fontes/Wild\ Love.otf) format('opentype') /* Forma de chamar uma fonte baixada */     
+                
+        }
+
+        
+        /* Usar fontes que tenha todas as especificações (Acentuação,MAIUSCULA,minuscula, , , . ) */
+
+        /* Tipos de Format
+        - OpenType(otf)
+        - truetype(ttf)
+        -embedded-opentype
+        -truetype-aat (Aple Advanced Typography)
+        -svg 
+        
+        Aconselhavel usar fonte baixada quando alguem prefere uma fonte especifica.
+        */
+        h1 {
+            font: normal 3em 'Love'  
+        }
+        h2 {
+            font: normal 3em 'Love';
+        }
+    </STyle>
+</head>
+<body>
+    <h1>Fontes Baixadas</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum praesentium quibusdam libero sequi fuga unde minima cupiditate corrupti, incidunt amet ullam culpa, commodi, dolor accusamus tempora aut inventore tempore! Veritatis.</p>
+    <h2>SubFonte</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut rerum aliquam quo inventore sit error vero repellat saepe explicabo ipsum! Est consequuntur vel temporibus iure aspernatur fugiat, maxime totam quibusdam.</p>
+</body>
+</html>

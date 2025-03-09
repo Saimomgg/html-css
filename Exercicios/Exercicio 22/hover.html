@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOVER</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        /* (.=Class) (#=id) (>=Filho de um elemento) (:=Pseudo classe=Define estados de elementos) (::= pseudo elementos, define o conteúdo periferico de um elemento)*/
+        div > p {
+            display: none; /* Esconde algo. */
+        }
+
+        div:hover > p {
+            display: block; /* Aparece algo. */
+            background-color: black;
+            color: white;
+            padding: 50px;
+            margin: auto;
+            border-radius: 5px 5px 5px 5px;
+            box-shadow: 7px 7px 7px rgb(126, 8, 8);
+            text-align: center;
+            font: italic bolder 2em 'sans serif';
+        }
+
+        main>div>h1{
+            text-align: center;
+            text-transform: uppercase;
+            font: italic 900 2em 'sans serif';
+        }
+        main:hover .dv > h1 {
+            background-color: red;
+            color: rgb(63, 23, 138);
+            border-radius: 7px 7px 7px 7px;
+            text-align: left;
+            font: normal 200 3em 'geneva';
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="dv">
+            <h1>Aprendendo a mexer com HOVER</h1>
+        </div>
+    </main>
+    <div>
+        Mexa aqui pra mostrar o texto escondido.
+        <p>Texto escondido.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    width: 100%;
+}
+
+main {
+    background-color: white;
+    border-radius: 5px ;/* Mexe nas bordas */
+    box-shadow: 10px 10px 10px #ff000045; /* Cria sombras na caixa */
+    padding: 10px; /* Espaçamento dos cantos */
+    width: 600px;
+    margin: auto; /* backgroud vai se adaprtar a tela. */
+}
+
+p {
+    text-align: justify; /* Deixa o texto organizado */
+}
+
+body {
+    background-image: linear-gradient(to right,#025951,#02735E );
+}
+h1 {
+    color: red;
+    text-shadow: 2px 2px 2px black;
+}

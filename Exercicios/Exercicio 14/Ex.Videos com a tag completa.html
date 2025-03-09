@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com a tag completa</title>
+</head>
+<body>
+    <h1>Videos com source</h1>
+    <h2>Video MP4</h2>
+    <p>Video Hospedado Localmente (GASTA MUITA BANDA DE DADOS)</p>
+    <video src="midia/Carros.mp4" width="400" controls poster="imagem/Alien.jpg"></video> > <!-- poster:colocar uma imagem de fundo. -->
+        <source src="midia/Carros.mp4" type="video/mp4">
+        <source src="midia/CarrosMKV.m4v" type="video/mp4">
+        <source src="midia/CarrosWEBM.webm" type="video/webm">
+        <p>Seu video não é compativel com o navegador.</p>
+    </video>
+    <!-- Logo abaixo são os videos cujo não consumem banda de internet dos clientes. -->
+
+    <h1>Video do YouTube</h1>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=i8LPCFdxo2t1o9p6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+
+    <h2>Video do VIMEO</h2>
+    <p>É aconselhavel usar o vimeo em videos privados que so algumas pessoas podem ver, ele também não consume banda</p>
+
+    <iframe src="https://player.vimeo.com/video/246578512?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="225" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="ANIMATION REEL 2016-2017"></iframe>
+</body>
+</html>

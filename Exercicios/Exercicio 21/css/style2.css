@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* 
+    id em html é um indentificador
+    id em css é #.
+    Obs: Dentro de um mesmo doculmento html só se pode ter um 'id'
+    
+    class é como se fosse um 'id' só que pode ter varios em uma página só
+    class em css é '.'
+
+    Pode colocar duas classes em uma só class.
+*/
+
+
+body {
+    background-color: rgb(196, 232, 125);
+}
+
+h1{
+    color: rgb(255, 165, 127);
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+    box-shadow: 1px 2px 1px rgb(82, 10, 10);
+    border-radius: 3px;
+    
+}
+
+h2 {
+    color: #348f20e7;
+    text-align: right;
+    text-shadow: 2px 2px 1px rgb(253, 6, 6);
+    text-transform: uppercase;
+    padding: 20px;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.441);
+    text-indent: 20px;
+    text-shadow: 2px 2px 2px gray;
+    padding: 20px;
+    margin-inline-start: 3px;
+}
+
+#principal {
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(29, 15, 215, 0.333);
+    text-transform: uppercase;
+    font: normal bolder 2em 'sans-serif';
+    color: rgb(6, 92, 63);
+    box-shadow: none;
+}
+
+.basico {
+    text-align: center;
+    background-color: aliceblue;
+}
+.intermediario{
+    text-align: left;
+    background-color: rgb(20, 3, 3);
+}
+.avancado{
+    text-align: right;
+    background-color: aquamarine;
+}
+.chamativo {
+    border-radius: 20px ;
+}

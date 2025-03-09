@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            font: italic 3em bolder;
+            background-color: gray;
+            border: 10px solid black;
+            margin: 20px auto 20px auto;
+            padding: 1.5em 1.2em 2em 2.0em;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            text-decoration: none;
+            outline: 10px solid blue;
+        
+        }
+        
+
+        h1:hover{
+            display: inline; /* Transforma em inline-block */
+        }
+
+        h1:active{
+            color: red;
+        }
+
+        a {
+           display: inline-block;/* Modifica um inline-level */
+           font: normal 3em bolder ; 
+           padding: 25px;
+           margin: 20px 10px;
+           text-decoration: none;
+           color: rgb(255, 119, 119); 
+        }
+        a:hover {
+            color: rgb(9, 29, 29);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 5em;
+            background-color: aquamarine;
+            border-radius: 10px 10px 10px 10px;
+            display: block; /* Transforma em Block - level */
+        }
+        a:active {
+            color: brown;
+        }
+        a::after {
+            content: ' > ';
+        }
+        a::before{
+            content: ' < ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box level.</h1>
+    <p>Paragráfos também são box level, já os <a href="#">LIKS</a> são inline-level.</p> 
+</body>
+</html>

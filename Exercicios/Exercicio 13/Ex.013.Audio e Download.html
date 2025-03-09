@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download e audio</title>
+</head>
+<body>
+    <h1>Tag de Download</h1>
+    <a href="Donloads/08 - Formatação de Textos.pdf" download="Formatação de Textos.pdf">Download do PDF</a> <br>
+    <a href="Donloads/Raivas_io.zip" download="Raiva.io.zip">Baixe aqui o arquivo zip</a>
+
+    <h1>Baixando AÚDIO</h1>
+    <p>Maneira Simples de colocar aúdio</p>
+    <audio src="Audio/(I've Got A) Baby Sister - Reed Mathis.mp3" controls></audio><br><hr><!-- Autoplay: serve para iniciar sozinho o audio quando iniciar a pagina. -->
+    <!-- Controls: Serve para aparecer o botão de audio. -->
+     <!-- Formatos de aúdio permitidos: (MP3 WAV OGG) -->
+    <!-- Tag: <audio> é limitado. -->
+
+        <audio preload="auto" controls loop> <!-- Formas diferentes de carregar MP3 -->
+            <!-- loop: Serve para recarregar o audio -->
+             <!-- preload: Serve para informar sé ele é auto, mostrar os detalhes ou se ele é none -->
+                <source src="Audio/(I've Got A) Baby Sister - Reed Mathis.mp3" type="Audio/mpeg">
+                <source src="Audio/(I've Got A) Baby Sister - Reed Mathis.ogg" type="Audio/ogg">
+                <source src="Audio/(I've Got A) Baby Sister - Reed Mathis.wav" type="Audio/wav">
+</body>
+</html>

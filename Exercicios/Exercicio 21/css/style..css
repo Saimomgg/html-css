@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* 
+    id em html é um indentificador
+    id em css é #.
+*/
+
+
+body {
+    background-color: rgb(33, 194, 194);
+}
+
+h1{
+    color: aquamarine;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+    box-shadow: 1px 2px 1px rgb(82, 10, 10);
+    border-radius: 3px;
+    
+}
+
+h2 {
+    color: #348f20e7;
+    text-align: right;
+    text-shadow: 2px 2px 1px rgb(253, 6, 6);
+    text-transform: uppercase;
+    padding: 20px;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.441);
+    text-indent: 20px;
+    text-shadow: 2px 2px 2px gray;
+    padding: 20px;
+    margin-inline-start: 3px;
+}
+
+#principal {
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(29, 15, 215, 0.333);
+    text-transform: uppercase;
+    font: normal bolder 2em 'sans-serif';
+    color: rgb(6, 92, 63);
+    box-shadow: none;
+}

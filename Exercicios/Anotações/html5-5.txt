@@ -1,0 +1,164 @@
+                            DNS
+o QUE É DNS? 
+
+Sistema de nome de dominio: é um local com servidores especiais/listas como (instagram.com)
+
+                            Dominio
+
+Dominio é o nome que identifica o Site.
+É um nome único não podem existir outros dominios ao mesmo site
+
+                            Hospedagem
+
+É o local aonde o site vai está armazenado!
+É um espaço para armazenar arquivos
+Hospedagem se escolhoe por (Espaço,Memoria,Rescursos)
+
+                            Url
+É o endereço do site (www.google.com.br)
+
+                            Diferenças
+www.github.com/gustavoguanabara
+1 - .com TLD
+2- github - Dominio
+3- Gustavoguanabara - URL
+4 www - sub-dominio principal do servidor web
+
+                    Como funciona a HTML e as CSS js
+HTML: É uma linguagem de contéudo - (Titulo,Paragrafo,Videos,e etc.)
+Tags em HTML é (<h1> Titulo <p> Paragrafo e etc)
+TAGS: <h1> Abertura de Tags
+TAGS> </h1> Fechamento de Tags
+
+CSS: Folhas de estilo em cascata - (Cores,tamanho das letras,estilos das letras e etc)
+
+JS: É a interatividade do site (Botão de entrar em um link, ir pra outra pagina e erc)
+
+
+                        Formatos de imagens pra web
+JPEG: Consegue compactar uma imagem muito grande transformando ela em menor não tem formato a fundo tranparente. (Pouca qualidade de imagem)
+Ex: Imagens grandes
+
+PNG: Não permite animação mais permite (imagem com fundo transparente)
+Ex: Imagens flutuantes na tela. (Mais qualidade de imagem)
+
+GIF: É uma imagem animada.
+
+
+                        META TAGS
+                        
+<meta name="description" content="Meu site de cores"> = Descrição do site.
+
+<meta name="keywords" content="Cores"> = Palavras chaves, ajuda o google a identificar o que o site é .
+
+<meta name='author' content="Saymon Cristian"> = De quem é o site.
+
+                    GIMP
+
+1500 de largura é a imagem ideal para um site
+
+72,00 de resolução é a ideal
+
+400 largura ideal para logo do site
+
+                    Favcon
+
+É uma imagen de favorito do site que fica na barra de pesquisa do lado esquerdo
+
+                Hierarquia de titulos
+h1,h2,h3,h4,h5,h6
+
+                HTML 5 
+HTML5 - É focado em semântica = Signficado
+Ex: <u>Rua Rio grande do sul 2200</u>
+
+Tag: <u></u> é uma forma não uma semântica, ela significa sublinhado
+
+Tag: <adress>Rua rio grande do sul 2200</adress> - É uma tag semantica pois dá sentido, é uma tag de endereço.
+
+            Formatação de Textos.
+Negrito: <b>Algo</b> = Bolt = Sem semantica - Só existe forma.
+
+Negrito: <strong></strong> = Com semântica
+
+Italico: <i></i> = Sem semântica.
+
+italico: <em>em</em> = Com semântica
+
+                Marca Textos
+Tag: mark - Cria um marca textos
+
+        Letras Pequenas e Grandes
+
+Tag: <small>small</small> = Dá sentido como se fosse algo importante
+Ex: Contrato de empresa.
+
+        Deletados e inseridos
+Tag: del = Excluido, mais que da pra ler mais não deve ser considerado
+
+Tag: ins = Inserido que vai ser sublinhado (semânticamente)
+
+            sublinhado
+Tag: <u>u</u> = Sublinhado (Não Semântico)
+
+            Sobrescrito
+Tag: sup - Cria algo Sobrescrito = Elevado
+
+            Subscrito
+Tag: sub - cria algo subscrito = Abaixo
+
+            CODE 
+Tag: <code></code> = Serve para reservar, o mesmo espaço para cada letra. Ele não organiza o codigo.
+
+            PRE 
+
+Tag: <pre></pre> =  Serve para deixar em formato de codigo, considerando os espaços.
+
+            CITAÇÕES
+Citação Simples.
+Tag: <q></q> = Serve para citar algo > Dando sentido á uma citação.
+Ex: Você é muito 'inteligente' = Sem o sentido
+Ex: Você é muito <q>inteligente</q> = com sentido.
+OBS: '' é a mesma coisa de <q></q>.
+OBS: Usar quando for uma citação.
+
+Citação completa.
+<blockquote></blockquote> = Quer dizer que serve para falar alguma coisa especifica.
+
+            Abreviações
+    
+Tag: <abbr title = 'HTML'>Hyper Text Markup Language</abbr> = Explica o que é o nome que ta dentro das aspas.
+
+                Lista ordenada
+ol: ordened List.
+Ex: <ol> 
+        <li> = Listas, podem ser colocadas quanto precisar.
+</ol>
+Obs: Lista organizada serve para colocar listas com numeros (1 A a I i)
+
+                Lista não ordenada
+
+Ul: lista não ordenada.
+Ex: <ul> = Listas não ordenadas
+        <li> = Listas, podem ser colocadas quanto precisar.
+</ul>
+
+Obs: Lista não ordenada serve para fazer uma lista sem numeros só com (Circle,square,disc)
+
+                Links Externos
+
+Tag: <a href =""> Serve para pôr um link externo.
+Obs: Somente assim quando a pessoa clica no link ele entra so que na mesma página.
+
+Tag: <a href ="" target ='_blank' rel = 'external'>
+Obs: target = "_blank" é uma janela em branco
+
+Obs: rel = 'external' quer dizer que ele é para ir pra fora da minha pagina.
+
+                        Videos
+Formatos de arquivos: (MP4, MkV, WEBM E OGV)
+Obs: MP4 E MkV são o mesmo grupo.
+
+Dica: (HandBrake) é um aplicativo para editar e colocar videos hospedados no site.
+
+Dica: Videos hospedados localmente irão consumir muitos trafecos de dados usando a tag <video>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* SELETORES PERSONALIZADOS.
+        # = id
+        . = clas
+        > = children/filho
+        : = Pseudo-Class
+        :: = Pseudo-Elemento
+        */
+
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Langar&family=Moon+Dance&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        a { /* Config Genérica. */
+            font-weight: 100;
+            text-decoration: none;
+        }
+
+        a:hover{ /* Pseudo-Classe */
+            color: rgb(27, 172, 123);
+            text-decoration: underline;
+            font: normal bolder 1em 'Langar';
+            padding: 5px;
+            display: flex;
+        }
+
+        #importante:hover{
+            color: rgb(240, 188, 105);
+            text-decoration: none;
+            font-size: 2em;
+        }
+
+        #importante:active{
+            color: pink;
+            text-decoration: none;
+        }
+
+        a:active{
+            color: pink;
+            text-decoration: none;
+        }
+        #importante::before {
+            content: '⚐ ';
+            color: red;
+        }
+        #importante::after {
+            content: ' ⚠';
+            color: rgb(27, 7, 11);
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo a mexer com links personalizados.</h1>
+              
+                <ul>
+                    <li><a href="https://gustavoguanabara.github.io/" target="_blank" rel="External">Repositorio Público</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po" target="_blank" rel="External">Video dessa aula</a></li>
+                    <li><a href="https://www.cursoemvideo.com/curso/python-3-mundo-1/aulas/tratando-dados-e-fazendo-contas/modulos/operadores-aritmeticos-2/" target="_blank" rel="External">Curso em video</a></li>
+                    <li><a href="https://www.google.com/ " target="_blank" rel="External" id="importante">Google</a>
+                    </li>
+                </ul>   
+
+</body>
+</html>

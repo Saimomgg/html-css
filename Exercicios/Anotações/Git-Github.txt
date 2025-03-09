@@ -1,0 +1,8 @@
+            Repositório Local/Remoto.
+git- é um software que mantem versões do site guardado localmente = REPOSITORIO LOCAL
+
+Se o computador parar de funcionar os arquivos são perdidos
+
+git e github se complementão.
+
+GitHub- Serve para hospedar um site na nuvem = REPOSITORIO REMOTO

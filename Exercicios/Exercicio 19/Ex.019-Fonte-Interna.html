@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes CSS</title>
+    <style>
+        body {
+            font-family: '', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Ele escolhe qual dessa vai existir e aparecer (caso uma não exista a outra vai aparecer.) */
+
+            font-size: 1em ; 
+            font-weight: bolder;
+            font-style: italic; 
+            text-decoration: underline;
+            
+            /* Fonte style=(Normal,Italic) 
+            Text-decoration: pode colocar underline.
+            
+            */
+
+
+
+            /* 
+            Medidas absolutas:
+            em,mm,in = (polegadas),px,pt,pc (Não são todos os dispositivos que é recomendavel usar medidas absolutas.)
+            
+            Medidas Relativas:
+            em=(Medida relativa ao tamanho da fonte.) ex=(Relativo á altura x de uma fonte.) rem=(Relativo á fonte utilazada no body) vw=(Relativo a largura da viwport (tamanho da tela.))
+            vh=(Altura da viwport) %=(Porcentagem.)
+
+            OBS: Recomendavel em tamanho de fonte usar a medida (px e em.)
+
+            OBS: 16px=(Geralmente é igual a 1em)
+
+            OBS: Peso da fonte é igual a largura das letras.
+
+            Usar: font-weight()
+            weight=Peso.
+            widht=Largura.
+            height=Altura.
+
+
+            pesos=(lighter,normal,bold,bolder.)
+            */
+        }
+        h2 {
+            /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 2em;
+            font-weight: lighter;
+            font-style: initial;
+            text-decoration: overline;
+            
+
+
+
+            shorthand font
+            = font-style > font-weight > font-size > font-family
+            
+            Posso simplificar as quatro linhas de cima em uma linha só.
+
+            font: italic bolder 2em sans-serif;
+
+            */
+            font: normal 500 2.5em sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Tabalhando com Fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam vero reiciendis fuga totam tempora nisi reprehenderit, deleniti possimus in obcaecati perferendis laboriosam dignissimos! Aperiam, officiis ex. Veniam illo ducimus enim? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur doloribus fuga impedit ratione iste nulla, incidunt voluptates, vitae nemo eum modi, iusto minus dolorem exercitationem maxime pariatur ipsa non quos.</p>
+
+    <h2>sub-titulo do exercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, quibusdam! Sapiente aspernatur necessitatibus expedita velit et eaque id magnam at unde quos, error, earum inventore enim vero voluptate nobis nihil.</p>
+</body>
+</html>

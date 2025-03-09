@@ -1,0 +1,69 @@
+                            CSS INLINE  
+css inline: (css na linha) = só é bom quando é algo muito especifico.
+css inline: O código fica muito confuso e embaralhado.
+
+                            CSS INTERNO/LOCAL
+css interno: São baseados em seletores = EX (<body>).
+css interno: Fica muito mais organizado e armonioso.
+
+Obs: Usar quando for aplicar somente em uma página.
+
+                            CSS EXTERNO
+css externo: É aconselhavel usar somente quando for usar estilos em muitas paginas.
+css externo: você pode misturar (css inline,css interno,css externo.) na mesma pagina.
+
+                            PSICOLOGIA DAS CORES
+Cores são muito importantes para um site, tem que saber diferenciar as cores e as tonalidades para passar diferentes tipos de sensações.
+
+Cores principais: do circulo de cores = (amarelo,vermelho,azul)
+Cores secundarias: (laranja,violeta,verde)
+Cores Terciarias: São junçoes de cores principais e secundarias = Ex: Amarelo-Esverdeado.
+
+                Estudo da Tipografia
+Anatomia dos tipos. 
+
+                Modelo de Caixa
+Todo conteúdo em html5 é uma caixa.
+
+(<h1></h1>) é uma caixa, pois oculpa um espaço.
+
+height = Altura
+width = Largura
+border = borda da caixa
+paddin = Espaçamento das bordas.
+margin = Espaçamento externo, afastamento das bordas.
+outline = Contorno da borda.
+
+Obs: Existem 2 tipos de caixas.
+
+1. Box-level: Ele pula a linha cria uma caixa que oculpa a tela toda. E depois ele volta com a caixa.
+
+2. Inline-Level: Ele não pula pra proxima linha, ele desenha uma caixa na linha e continua na frente.
+
+Tags: Box-Level.
+
+<div>
+<h1>-até-<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+Tags: Inline-Level.
+
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup>-e-<sub>
+<label>
+<button>
+<input>
+<select>
