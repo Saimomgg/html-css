@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centralização vertical das caixas</title>
+    <title>Alinhamento Vetical</title>
+
+    <style>
+        section#container{
+            background-color: purple;
+            height: 99vh;
+            background-size: 100%;
+            position: relative; /* Já vem com a posilçao relativa. */
+        }
+
+        article#conteudo{
+            background-color: black;
+            height: 300px;
+            width: 300px;
+
+            position: absolute; /* Ele serve para me da umas propriedades chamadas left e top, para poder mexer e colocar aonde eu desejar. */
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%); /* Serve para transformar, ele serve para colocar algo ao meio ou em qualquer posição. */
+        } 
+    </style>
+
 </head>
 <body>
-
+    <section id="container">
+        <article id="conteudo">
+        
+        </article>
+    </section>
 </body>
 </html>
